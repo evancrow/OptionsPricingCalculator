@@ -1,5 +1,5 @@
 import pytest
-from helpers.inputs import integer_input, float_input, string_input, make_options_input_prompt, options_input
+from Helpers.inputs import integer_input, float_input, string_input, make_options_input_prompt, options_input
 
 # MARK: integer_input
 def test_integer_input_valid_input(monkeypatch):
